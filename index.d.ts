@@ -15,6 +15,7 @@ export interface ChartitGraphProps {
   listener?: any;
   responsiveOptions?: any;
   style?: React.CSSProperties;
+  forceRecreation?: boolean;
 }
 
 export interface ChartitGraphLineProps extends ChartitGraphProps {
